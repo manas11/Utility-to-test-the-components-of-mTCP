@@ -36,6 +36,16 @@ make
 
 # now mtcp setup is done now server and client applications have to be run 
 
-# server application 
+# server application epserver
+
+
+cd apps/example
+
+ 
+# create a directory which will be used by the epserver application 
+# after creating the directory make a simple file which will be requested by the client
+
+# edit the epserver.conf file in the current example directory to change some of the arguments
+
 
 
