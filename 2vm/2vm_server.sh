@@ -47,5 +47,10 @@ cd apps/example
 
 # edit the epserver.conf file in the current example directory to change some of the arguments
 
+# run the epserver application
+
+./epserver -p www -f epserver.conf -N 1
+
+
 
 

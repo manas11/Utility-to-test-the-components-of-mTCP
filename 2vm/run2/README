@@ -1,0 +1,44 @@
+this run was done with the following parameters : 
+number of flows = 10000
+concurrency = 100
+number of cores = 1
+send and receiver buffer size : 8192
+
+
+Outputs : 
+
+
+Server side : 
+
+
+Configurations:
+Number of CPU cores available: 1
+Number of CPU cores to use: 1
+Maximum number of concurrency per core: 10000
+Maximum number of preallocated buffers per core: 10000
+Receive buffer size: 8192
+Send buffer size: 8192
+TCP timeout seconds: 30
+TCP timewait seconds: 0
+
+Interfaces:
+name: dpdk0, ifindex: 0, hwaddr: 08:00:27:7E:D0:8A, ipaddr: 10.1.0.2, netmask: 255.255.255.0
+Number of NIC queues: 1
+
+Port 0 Link Up - speed 1000 Mbps - full-duplex
+CPU 0: initialization finished.
+
+----------------------------------------------------------------------------
+
+[CPU 0] dpdk0 flows:    100, RX:    9748(pps) (err:     0),  0.01(Gbps), TX:   25191(pps),  0.29(Gbps)
+[ ALL ] dpdk0 flows:    100, RX:    9748(pps) (err:     0),  0.01(Gbps), TX:   25191(pps),  0.29(Gbps)
+[CPU 0] dpdk0 flows:    100, RX:   52734(pps) (err:     0),  0.04(Gbps), TX:  146816(pps),  1.71(Gbps)
+[CPU 0] dpdk0 flows:    100, RX:   49558(pps) (err:     0),  0.04(Gbps), TX:  140545(pps),  1.64(Gbps)
+[CPU 0] dpdk0 flows:    107, RX:   52245(pps) (err:     0),  0.04(Gbps), TX:  146927(pps),  1.71(Gbps)
+[CPU 0] dpdk0 flows:    100, RX:   54114(pps) (err:     0),  0.04(Gbps), TX:  148100(pps),  1.72(Gbps)
+[CPU 0] dpdk0 flows:    100, RX:   53089(pps) (err:     0),  0.04(Gbps), TX:  151651(pps),  1.77(Gbps)
+
+
+Client side : 
+
+
