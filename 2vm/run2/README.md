@@ -29,6 +29,7 @@ Port 0 Link Up - speed 1000 Mbps - full-duplex
 CPU 0: initialization finished.
 
 ----------------------------------------------------------------------------
+```
 
 [CPU 0] dpdk0 flows:    100, RX:    9748(pps) (err:     0),  0.01(Gbps), TX:   25191(pps),  0.29(Gbps)
 [ ALL ] dpdk0 flows:    100, RX:    9748(pps) (err:     0),  0.01(Gbps), TX:   25191(pps),  0.29(Gbps)
@@ -37,13 +38,14 @@ CPU 0: initialization finished.
 [CPU 0] dpdk0 flows:    107, RX:   52245(pps) (err:     0),  0.04(Gbps), TX:  146927(pps),  1.71(Gbps)
 [CPU 0] dpdk0 flows:    100, RX:   54114(pps) (err:     0),  0.04(Gbps), TX:  148100(pps),  1.72(Gbps)
 [CPU 0] dpdk0 flows:    100, RX:   53089(pps) (err:     0),  0.04(Gbps), TX:  151651(pps),  1.77(Gbps)
-
+```
 
 Client side : 
 
 
 
 Response size set to 109240
+```
 [ ALL ] connect:    1849, read:  186 MB, write:    0 MB, completes:    1749 (resp_time avg: 54169, max:  94715 us)
 [CPU 0] dpdk0 flows:    100, RX:  146877(pps) (err:     0),  1.69(Gbps), TX:   52783(pps),  0.04(Gbps)
 [ ALL ] dpdk0 flows:    100, RX:  146877(pps) (err:     0),  1.69(Gbps), TX:   52783(pps),  0.04(Gbps)
@@ -61,6 +63,7 @@ Response size set to 109240
 [CPU 0] dpdk0 flows:    100, RX:  150944(pps) (err:     0),  1.75(Gbps), TX:   52643(pps),  0.04(Gbps)
 [ ALL ] dpdk0 flows:    100, RX:  150944(pps) (err:     0),  1.75(Gbps), TX:   52643(pps),  0.04(Gbps)
 [CPU 0] Completed 10000 connections, errors: 0 incompletes: 0
+```
 
 
 
