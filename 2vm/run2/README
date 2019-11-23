@@ -42,3 +42,25 @@ CPU 0: initialization finished.
 Client side : 
 
 
+
+Response size set to 109240
+[ ALL ] connect:    1849, read:  186 MB, write:    0 MB, completes:    1749 (resp_time avg: 54169, max:  94715 us)
+[CPU 0] dpdk0 flows:    100, RX:  146877(pps) (err:     0),  1.69(Gbps), TX:   52783(pps),  0.04(Gbps)
+[ ALL ] dpdk0 flows:    100, RX:  146877(pps) (err:     0),  1.69(Gbps), TX:   52783(pps),  0.04(Gbps)
+
+[ ALL ] connect:    1750, read:  181 MB, write:    0 MB, completes:    1750 (resp_time avg: 55506, max: 558936 us)
+[CPU 0] dpdk0 flows:    100, RX:  139559(pps) (err:     0),  1.62(Gbps), TX:   49227(pps),  0.04(Gbps)
+[ ALL ] dpdk0 flows:    100, RX:  139559(pps) (err:     0),  1.62(Gbps), TX:   49227(pps),  0.04(Gbps)
+[ ALL ] connect:    1824, read:  190 MB, write:    0 MB, completes:    1824 (resp_time avg: 55221, max: 1060423 us)
+[CPU 0] dpdk0 flows:    100, RX:  146232(pps) (err:     0),  1.70(Gbps), TX:   51750(pps),  0.04(Gbps)
+[ ALL ] dpdk0 flows:    100, RX:  146232(pps) (err:     0),  1.70(Gbps), TX:   51750(pps),  0.04(Gbps)
+[ ALL ] connect:    1869, read:  195 MB, write:    0 MB, completes:    1869 (resp_time avg: 53721, max: 555864 us)
+[CPU 0] dpdk0 flows:    100, RX:  150565(pps) (err:     0),  1.75(Gbps), TX:   54439(pps),  0.04(Gbps)
+[ ALL ] dpdk0 flows:    100, RX:  150565(pps) (err:     0),  1.75(Gbps), TX:   54439(pps),  0.04(Gbps)
+[ ALL ] connect:    1889, read:  196 MB, write:    0 MB, completes:    1889 (resp_time avg: 52483, max: 555658 us)
+[CPU 0] dpdk0 flows:    100, RX:  150944(pps) (err:     0),  1.75(Gbps), TX:   52643(pps),  0.04(Gbps)
+[ ALL ] dpdk0 flows:    100, RX:  150944(pps) (err:     0),  1.75(Gbps), TX:   52643(pps),  0.04(Gbps)
+[CPU 0] Completed 10000 connections, errors: 0 incompletes: 0
+
+
+
