@@ -22,7 +22,7 @@ _
 ip link set dpdk0 up
 # server will have 10.1.0.2/24 
 # cient will have 10.1.0.1/24 
-ip addr add 10.1.0.2/24 dev dpdk0
+ip addr add 10.1.0.1/24 dev dpdk0
  
 
 export RTE_SDK=`echo $PWD`/dpdk
@@ -36,6 +36,13 @@ make
 
 # now mtcp setup is done now server and client applications have to be run 
 
-# server application 
+# client application epwget
+
+cd apps/example
+
+# now run the application 
+
+./epwget 10.1.0.2/q.html 100  -N 1 -c 10  -f epwget.conf
+
 
 
