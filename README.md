@@ -19,3 +19,24 @@ Inside these directories, there is a README file that contains the steps to be f
  - [OpenNetVM paper](https://faculty.cs.gwu.edu/timwood/papers/16-HotMiddlebox-onvm.pdf)
  - [More details about working of OpenNetVM](http://sdnfv.github.io/onvm/)
 
+## Contributors and maintainers [&uarr;](#contents)
+
+This project and repository is created and maintained by:
+
+* **Manas Gupta**
+
+ Email: manasgupta1109@gmail.com
+    
+ Github: [manas11](https://github.com/manas11)
+    
+* **Animesh Kumar**
+
+ Email: animuz111@gmail.com
+    
+ Github: [animeshk08](https://github.com/animeshk08)
+
+* **Ayush Kumar**
+
+ Email: a.ayushkumar1997@gmail.com
+    
+ Github: [ayush4190](https://github.com/ayush4190/)
